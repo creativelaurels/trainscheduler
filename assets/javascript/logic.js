@@ -63,7 +63,7 @@ $("#addButton").on("click", function(){
 
       // figure out the next arrival time as time clock
       var nextArrival;
-      
+
           // if (difference > 0) {
           //   nextArrival = moment(cvFirst).format('hh:mm A');
           // }
