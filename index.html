@@ -22,7 +22,7 @@
 			<div class="jumbotron">
 				<div class="container">
 					<h1>Train Scheduler</h1>
-					<p>"C'mon ride the train, and <i>ride</i> it."</p>
+					<p>"C'mon ride the train, and ride it."</p>
 				</div> <!--end of container-->
 			</div> <!--end of jumbotron-->
 
@@ -34,7 +34,7 @@
 					</div>-->
 
 							<!--Table-->
-						<table class="table">
+						<table class="table" id="trainTable">
 							<thead>
 								    <tr>
 								      <th>TRAIN NAME</th>
@@ -66,15 +66,13 @@
 										<label for="dest">DESTINATION</label>
 					        	<input type="text" class="form-control small" id="dest" placeholder="Destination">
 
-										<label for="freq">FREQUENCY</label>
+										<label for="freq">FREQUENCY (MIN)</label>
 					        	<input type="text" class="form-control small" id="freq" placeholder="00">
 
-										<label for="next">NEXT ARRIVAL</label>
-					        	<input type="text" class="form-control small" id="next" placeholder="0:00 PM">
+										<label for="next">FIRST TRAIN TIME (HH:mm - military time)</label>
+					        	<input type="text" class="form-control small" id="first" placeholder="00:00">
 
-										<label for="away">MINUTES AWAY</label>
-					        	<input type="text" class="form-control small" id="away" placeholder="00">
-					      	</div><!--end form-group div-->
+									</div><!--end form-group div-->
 
 								<!--submit button for add train form-->
 					      <button type="button" class="btn btn-default" id="addButton">
